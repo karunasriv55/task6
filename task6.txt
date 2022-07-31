@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1> Fixed numbers</h1>
+<p>ToFixed() converts a number to a string, rounded to a specified number of decimals:</p>
+
+<p id="demo"></p>
+
+<script>
+let num = 5.56789;
+let n = num.toFixed();
+
+document.getElementById("demo").innerHTML = n;
+</script>
+
+</body>
+</html>
